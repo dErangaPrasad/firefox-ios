@@ -620,7 +620,7 @@ extension Navigator where T == FxUserState {
         let app = XCUIApplication()
         self.goto(TabTray)
         app.buttons["TabTrayController.addTabButton"].tap()
-        self.nowAt(HomePanelsScreen)
+        self.nowAt(NewTabScreen)
     }
 
     // Add Tab(s) from the Tab Tray
