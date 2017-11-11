@@ -787,7 +787,7 @@ class SyncSetting: Setting {
     init(settings: SettingsTableViewController) {
         self.profile = settings.profile
 
-        super.init(title: NSAttributedString(string: Strings.SettingsSyncSectionName, attributes: [NSForegroundColorAttributeName: UIConstants.TableViewRowTextColor]))
+        super.init(title: NSAttributedString(string: Strings.SettingsSyncSectionName, attributes: [NSForegroundColorAttributeName: SettingsUX.TableViewRowTextColor]))
     }
 
     override func onClick(_ navigationController: UINavigationController?) {
